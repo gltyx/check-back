@@ -319,6 +319,8 @@ var cnRegReplace = new Map([
     [/^You are gaining (.+) elves per second$/, '你每秒获得 $1 精灵'],
     [/^You have (.+) points$/, '你有 $1 点数'],
     [/^Next at (.+) points$/, '下一个在 $1 点数'],
+    [/^Check back in (.+) hour$/, '$1 小时后回来查看'],
+    [/^Check back in (.+) hours$/, '$1 小时后回来查看'],
     [/^Check back in (.+) minute$/, '$1 分钟后回来查看'],
     [/^Check back in (.+) minutes$/, '$1 分钟后回来查看'],
     [/^Check back in (.+) hours (.+) minutes (.+) second$/, '$1 小时 $2 分钟 $3 秒后回来查看'],
